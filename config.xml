@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "net.i-Favorites.welfare-ads"
+	version 	= "1.0.0">
+                                        
+	<name>看廣告、做公益</name>
+
+	<description>
+看廣告、做公益，大家一起來！
+</description>
+
+	<author href="http://i-favorites.net/"
+		email="myTouchGame@gmail.com">
+		i-Favorites.net
+	</author>
+
+	<icon src="icon512.png" gap:platform="android" gap:role="default" />
+  
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	
+	<preference name="orientation" value="auto" />
+	<preference name="stay-in-webview" value="true" />
+	<preference name="android-installLocation" value="auto" />
+	
+
+	<access origin="*" /> 
+
+	
+</widget>
